@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-flippy-master.flake = false;
+  inputs.src-flippy-master.ref   = "refs/heads/master";
   inputs.src-flippy-master.owner = "treeform";
-  inputs.src-flippy-master.ref   = "master";
   inputs.src-flippy-master.repo  = "flippy";
   inputs.src-flippy-master.type  = "github";
   
