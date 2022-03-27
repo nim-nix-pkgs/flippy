@@ -11,6 +11,7 @@
   inputs.src-flippy-0_4_2.ref   = "refs/tags/0.4.2";
   inputs.src-flippy-0_4_2.owner = "treeform";
   inputs.src-flippy-0_4_2.repo  = "flippy";
+  inputs.src-flippy-0_4_2.dir   = "";
   inputs.src-flippy-0_4_2.type  = "github";
   
   inputs."vmath".owner = "nim-nix-pkgs";
