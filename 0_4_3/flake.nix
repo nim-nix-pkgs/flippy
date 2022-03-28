@@ -11,7 +11,6 @@
   inputs.src-flippy-0_4_3.ref   = "refs/tags/0.4.3";
   inputs.src-flippy-0_4_3.owner = "treeform";
   inputs.src-flippy-0_4_3.repo  = "flippy";
-  inputs.src-flippy-0_4_3.dir   = "";
   inputs.src-flippy-0_4_3.type  = "github";
   
   inputs."vmath".owner = "nim-nix-pkgs";
@@ -54,13 +53,13 @@
   inputs."mddoc".inputs.nixpkgs.follows = "nixpkgs";
   inputs."mddoc".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."snappy".owner = "nim-nix-pkgs";
-  inputs."snappy".ref   = "master";
-  inputs."snappy".repo  = "snappy";
-  inputs."snappy".dir   = "";
-  inputs."snappy".type  = "github";
-  inputs."snappy".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."snappy".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."nim-snappy".owner = "nim-nix-pkgs";
+  inputs."nim-snappy".ref   = "master";
+  inputs."nim-snappy".repo  = "nim-snappy";
+  inputs."nim-snappy".dir   = "master";
+  inputs."nim-snappy".type  = "github";
+  inputs."nim-snappy".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."nim-snappy".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
